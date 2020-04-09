@@ -13,29 +13,15 @@ public class DisplayDevice extends Stopable {
 
 	@Override
 	public void starting() {
-
-		System.out.println(super.name + " starting q...");
-
+		// TODO
 	}
-
+	
 	public void doProcess() {
-
-		int temp = tm.getTemperature();
-
-		System.out.println("DISPLAY: " + temp);
-		
-		try {
-			Thread.sleep(1000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
+		// TODO
 	}
-
+	
 	@Override
 	public void stopping() {
-
-		System.out.println(super.name + " stopping ...");
-
+		// TODO
 	}
 }

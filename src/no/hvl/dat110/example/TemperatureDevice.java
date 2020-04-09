@@ -15,28 +15,15 @@ public class TemperatureDevice extends Stopable {
 	
 	@Override
 	public void starting() {
-		System.out.println(super.name + " starting ...");
+		// TODO
 	}
 	
 	public void doProcess() {
-					
-				int temp = sn.read();
-				System.out.println("READING: " + temp);
-				
-				tm.setTemperature(temp);
-
-				try {
-					Thread.sleep(1000);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-
-			}
-
+		// TODO
+	}
+	
 	@Override
 	public void stopping() {
-		
-		System.out.println(super.name + " stopping ...");
-		
+		// TODO
 	}
 }

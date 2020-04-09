@@ -11,27 +11,16 @@ public class IoTSystem {
 		TemperatureDevice tempdevice = new TemperatureDevice(tm);
 		DisplayDevice disdevice = new DisplayDevice(tm);
 		
+		// TODO
+		
+		// start the devices
+		
+		// let the main-thread wait for while
+		
+		// stop the two stopable-threads
+		
+		// wait for the two stopable-threads to terminate
 		tempdevice.start();
-		disdevice.start();
-		
-		try {
-			Thread.sleep(10000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		tempdevice.doStop();
-		disdevice.doStop();
-		 
-		try {
-			
-			
-			tempdevice.join();
-			disdevice.join();
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 		
 		System.out.println("IoT system shutting down ... ");	
 		
