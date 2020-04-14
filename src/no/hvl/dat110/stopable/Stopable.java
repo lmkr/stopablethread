@@ -18,15 +18,15 @@ public abstract class Stopable extends Thread {
 
 	}
 
-	public void starting() {
+	protected void starting() {
 		
 	}
 	
-	public void stopping() {
+	protected void stopping() {
 		
 	}
 
-	public abstract void doProcess();
+	protected abstract void doProcess();
 	
 	public void run() {
 		

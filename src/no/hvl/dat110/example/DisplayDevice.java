@@ -12,16 +12,16 @@ public class DisplayDevice extends Stopable {
 	}
 
 	@Override
-	public void starting() {
+	protected void starting() {
 		// TODO
 	}
 	
-	public void doProcess() {
+	protected void doProcess() {
 		// TODO
 	}
 	
 	@Override
-	public void stopping() {
+	protected void stopping() {
 		// TODO
 	}
 }
